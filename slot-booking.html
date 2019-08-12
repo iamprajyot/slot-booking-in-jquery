@@ -1,0 +1,75 @@
+<html>
+<head>
+        <meta charset="utf-8">
+        <title>jQuery Weekly Scheduler Demo</title>
+        <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="jquery-appointment-slot-booking.js"></script>
+        <style>
+        body { background-color:#f7f7f7; font-family:'Roboto';}
+.round:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.round {
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 50%;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 10px;
+}
+.date {
+	display: block;
+	width: 45px;
+	height: 25px;
+	background: #fff;
+	text-align: center;
+	font-family: 'Helvetica', sans-serif;
+	position: relative;
+	cursor: pointer;
+}
+
+.date .binds {
+}
+
+.date .month {
+	background: #555;
+	display: block;
+	color: #fff;
+	font-size: 10px;
+	font-weight: bold;
+	border-bottom: 2px solid #333;
+}
+.year {
+	background: #78A;
+	display: block;
+	color: #fff;
+	font-size: 10px;
+	font-weight: bold;
+	border-bottom: 2px solid #333;
+}
+
+.date .cal-day {
+	display: block;
+	margin: 0;
+	font-size: 12px;
+	background: #FDA;
+}
+        </style>
+</head>
+
+    <body>
+   <div class="container" style="margin: 50px auto; width: 100%; height: 100%; display: flex; flex-direction: row; justify-content: center;">
+            <div id="target">
+            </div>
+        </div>
+        <script>
+            $('#target').appointmentSystem();
+        </script>
+    </body><script type="text/javascript">
+</script>
+</html>
