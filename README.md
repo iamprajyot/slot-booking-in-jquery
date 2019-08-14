@@ -1,7 +1,7 @@
 # slot-booking-in-jquery
 Slot booking system in Jquery
 
-# About this booking system
+# About
 1. This system can be used to book appointment slots for given weekely availabilities in applications like Doctors appointment, Salon appointment, beutician booking, etc.
 2. Slot time size is 15 minutes (but not restricted)
 3. Hardcoded weekely availbilities, number of slots to be selected i.e. 3 slots which means booking for 45min of service (in real application use case you can provide this dynamicaly) 
